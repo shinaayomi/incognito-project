@@ -10,42 +10,42 @@ function HomeFooter() {
           </div>
           <div className="col-md">
             <div>
-              <a href="#" className="nav-link" style={{fontWeight: "600",fontSize: "18px",lineHeight: "28px"}}>
+              <a href="#" className="nav-link" style={{fontSize: "18px",lineHeight: "28px"}}>
                 Quick Links
               </a>
-              <a href="#" className="nav-link" style={{opacity: "0.65",lineHeight: "28px"}}>
+              <a href="#" className="nav-link" style={{opacity: "0.65",lineHeight: "24px"}}>
                 Privacy Policy
               </a>
-              <a href="#" className="nav-link" style={{opacity: "0.65",lineHeight: "28px"}}>
+              <a href="#" className="nav-link" style={{opacity: "0.65",lineHeight: "24px"}}>
                 Terms and condition
               </a>
             </div>
           </div>
           <div className="col-md d-flex align-items-end">
             <div>
-              <a href="#" className="nav-link" style={{opacity: "0.65",lineHeight: "28px"}}>
+              <a href="#" className="nav-link" style={{opacity: "0.65",lineHeight: "24px"}}>
                 Information
               </a>
-              <a href="#" className="nav-link" style={{opacity: "0.65",lineHeight: "28px"}}>
+              <a href="#" className="nav-link" style={{opacity: "0.65",lineHeight: "24px"}}>
                 About Incognito
               </a>
             </div>
           </div>
           <div className="col-md">
             <form className="px-3 py-3 py-md-0">
-              <label htmlFor="Subscribe" style={{fontWeight: "600",fontSize: "18px",lineHeight: "28px"}}>Subscribe</label>
+              <label htmlFor="Subscribe" style={{fontSize: "18px",lineHeight: "28px"}}>Subscribe</label>
               {/* input */}
               <div className="row">
                 <div className="col-10 pe-0">
                   <input
                     type="text"
                     name="Subscribe"
-                    className="form-control"
+                    className="form-control p-2" placeholder="Get our updates"
                     id=""
                   />
                 </div>
                 <div className="col-2 ps-0">
-                  <button type="submit" className="btn btn-danger">
+                  <button type="submit" className="btn p-2">
                     <img src="/icon/arrows-down-top-move-1.svg" alt="" />
                   </button>
                 </div>

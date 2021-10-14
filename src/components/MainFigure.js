@@ -15,7 +15,7 @@ function MainFigure() {
 
   return (
     <>
-      <div className="container-fluid mainFigure" style={{ height: "100vh" }}>
+      <div className="container-fluid mainFigure">
         <div className="row px-md-5 py-5 rowPadding">
           <div className="col-md mt-md-4">
             <Slider {...settings}>

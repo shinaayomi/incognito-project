@@ -195,6 +195,8 @@ a {
 
 .imgHeroWrapper {
     position: relative;
+    max-width: 1150px;
+    margin: 0 auto;
 }
 
 .userContent {
@@ -252,7 +254,7 @@ a {
     position: absolute;
     width: 170px;
     height: 185px;
-    right: 57px;
+    right: -2%;
     bottom: 28%;
     background: #ff0064;
     border-radius: 33px;
@@ -397,6 +399,31 @@ a {
 .home-footer label {
     font-family: Poppins-Regular;
     color: #272727;
+    font-weight: 600;
+}
+
+.home-footer .nav-link:hover {
+    color: #272727;
+}
+
+.home-footer .form-control {
+    background: #292929;
+    border: 1px solid rgba(121, 121, 121, 0.2);
+    border-radius: 6px 0 0 6px;
+}
+
+.home-footer .btn {
+    background: #FF0064;
+    border-radius: 0 8px 8px 0;
+}
+
+.home-footer .form-control::placeholder {
+    font-family: Poppins-Regular;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    opacity: 0.65;
 }
 
 @media screen and (max-width: 768px) {

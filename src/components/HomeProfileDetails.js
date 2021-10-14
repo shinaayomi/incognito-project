@@ -3,11 +3,11 @@ function HomeProfileDetails() {
     <div>
       <div className="container-fluid p-md-5 py-5 text-white bg-black home-profile-details">
         <div className="row justify-content-center align-items-end p-md-5">
-          <div className="col-md-4 py-4 mb-4 mb-md-0 position-relative">
+          <div className="col-md-4 py-4 mb-4 mb-md-0 position-relative me-md-5">
             <img
               src="/images/victoria-benjamin.png"
               width="382"
-              className="img-fluid position-relative"
+              className="img-fluid position-relative float-end"
             />
             <div className="red-img-bg"></div>
           </div>
