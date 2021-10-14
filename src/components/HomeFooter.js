@@ -10,30 +10,30 @@ function HomeFooter() {
           </div>
           <div className="col-md">
             <div>
-              <a href="#" className="nav-link">
+              <a href="#" className="nav-link" style={{fontWeight: "600",fontSize: "18px",lineHeight: "28px"}}>
                 Quick Links
               </a>
-              <a href="#" className="nav-link">
+              <a href="#" className="nav-link" style={{opacity: "0.65",lineHeight: "28px"}}>
                 Privacy Policy
               </a>
-              <a href="#" className="nav-link">
+              <a href="#" className="nav-link" style={{opacity: "0.65",lineHeight: "28px"}}>
                 Terms and condition
               </a>
             </div>
           </div>
           <div className="col-md d-flex align-items-end">
             <div>
-              <a href="#" className="nav-link">
+              <a href="#" className="nav-link" style={{opacity: "0.65",lineHeight: "28px"}}>
                 Information
               </a>
-              <a href="#" className="nav-link">
+              <a href="#" className="nav-link" style={{opacity: "0.65",lineHeight: "28px"}}>
                 About Incognito
               </a>
             </div>
           </div>
           <div className="col-md">
             <form className="px-3 py-3 py-md-0">
-              <label htmlFor="Subscribe">Subscribe</label>
+              <label htmlFor="Subscribe" style={{fontWeight: "600",fontSize: "18px",lineHeight: "28px"}}>Subscribe</label>
               {/* input */}
               <div className="row">
                 <div className="col-10 pe-0">
