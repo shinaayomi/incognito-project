@@ -412,6 +412,14 @@ a {
     border-radius: 6px 0 0 6px;
 }
 
+.home-footer .form-control:focus {
+    box-shadow: none;
+    background: #292929;
+    color: #FFFFFF;
+    font-family: Poppins-Regular;
+    outline: 0;
+}
+
 .home-footer .btn {
     background: #FF0064;
     border-radius: 0 8px 8px 0;
